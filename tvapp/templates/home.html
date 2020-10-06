@@ -1,0 +1,251 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="/netflix">
+          <img src="./static/img/netflix-logo.png" class="d-block w-100" alt="..."></a>
+        <div class="carousel-caption">
+          <p> Top 10 Most Watched Netflix Originals 2020.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="/top1-10">
+          <img src="./static/img/break.jpg" class="d-block w-100" alt="..."></a>
+        <div class="carousel-caption">
+          <p>Top 20 Shows Of All Time.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="/recommend">
+          <img src="./static/img/3.jpg" class="d-block w-100" alt="..."></a>
+        <div class="carousel-caption">
+          <p>Highly Recommended Shows</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div style="color: black;" class="album py-5 bg-dark">
+  <div class="container">
+    <h2 class="text-center" style="margin-bottom: 25px; color: white">Upcoming Shows</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eW7Twd85m2g"
+              allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+            <h4 class="text-center">The Mandalorian Season 2</h4>
+            <p class="card-text">The Mandalorian seems to have made almost everyone Star Wars fan happy. Season 1 of the
+              first ever live-action Star Wars TV succeeded in the difficult task of presenting a show with entirely new
+              characters that still captured the spirit of what fans love about the franchise, as well as introducing
+              the world to the pop culture phenomenon that is Baby Yoda. </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.rottentomatoes.com/tv/the_mandalorian"><button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tykS7QfTWMQ"
+              allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+            <h4 class="text-center">The Haunting Of Bly Manor</h4>
+            <p class="card-text">2018's The Haunting of Hill House was a smashing-success for Netflix,so it wasn't any
+              surprise when it was announced in February this year that Season 2 is happening.The new season is based on
+              the 1898 Henry James novella The Turn of The Screw.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.rottentomatoes.com/tv/the_haunting_of_bly_manor"> <button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/45mJxhNhF54"
+              allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+            <h4 class="text-center">His Dark Materials Season 2</h4>
+            <p class="card-text">His Dark Materials is HBO's adaptation of Philip Pullman trilogy of fantasy novels.
+              Even though Season 1 only premiered in December last year, Season 2 had nearly finished shooting before
+              the pandemic shut down most of Hollywood in March and will arrive this side of Christmas. This season will
+              adapt the second of Pullman's novels, The Subtle Knife.
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.rottentomatoes.com/tv/his_dark_materials"> <button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sj9J2ecsSpo"
+              allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+            <h4 class="text-center">WandaVision</h4>
+            <p class="card-text">WandaVision will be the first MCU show to hit Disney+. We've known for some time that
+              it wouldn't be a standard superhero show, and the recent trailer revealed just how strange it promises to
+              be. Vision (Paul Bettany) and Scarlet Witch (Elizabeth Olsen) are now living in suburbia, trying to
+              maintain "normal" lives, and much of the trailer suggests this will be presented in a classic sitcom
+              format. But as MCU fans know, Vision was killed in Infinity War--something the trailer alludes to--and
+              things are definitely not what they seem.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.rottentomatoes.com/tv/wandavision"> <button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top"
+            src="https://decider.com/wp-content/uploads/2020/01/the-falcon-and-winter-soldier-.jpg?quality=80&strip=all&w=646&h=431&crop=1">
+          <h4 class="text-center" style="margin-top: 20px;">The Falcon And The Winter Soldier</h4>
+          <div class="card-body">
+            <p class="card-text">The Falcon and The Winter Soldier was set to debut in August 2020, but will now arrive
+              in 2021. Anthony Mackie and Sebastian Stan return to play their respective roles, and they'll be joined by
+              Daniel Brühl reprising his role of Zemo from Captain America: Civil War.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.rottentomatoes.com/tv/the_falcon_and_the_winter_soldier"> <button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="https://images.indianexpress.com/2020/09/mirzapur.jpeg">
+          <div class="card-body">
+            <h4 class="text-center">Mirzapur Season 2</h4>
+            <p class="card-text">Amazon Prime Video made the most awaited announcement. Mirzapur Season 2 will premiere
+              on the streaming platform on October 23, 2020. The makers of the web series revealed its release date via
+              a teaser, which hints that Mirzapur 2 is going to be bigger and better.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.imdb.com/title/tt6473300/"><button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" height="350"
+            src="https://m.media-amazon.com/images/M/MV5BMTFmZjZjOWItOWY0NC00ZDA1LWFhN2ItMDI1ZGNmNGE2NGJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+          <div class="card-body">
+            <h4 class="text-center">House of the Dragon</h4>
+            <p class="card-text">Based on George R.R. Martin’s book Fire & Blood, the series will tell the story of
+              House Targaryen (a.k.a. the House that gave us the Mother of Dragons herself, Daenerys Targaryen) and take
+              place 300 years before the events of Game of Thrones.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="https://editorial.rottentomatoes.com/article/everything-we-know-about-game-of-thrones-prequel-series-house-of-the-dragon/">
+                  <button type="button" class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top"
+            src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL2434_1024x1024.jpg?v=1571445544" alt="">
+          <div class="card-body">
+            <h4 class="text-center">Succession Season 2</h4>
+            <p class="card-text">If you’re not caught up on the Succession finale yet, then don’t worry. It’s very
+              quietly become the best show on TV – so you’re not the only tellyhead to have missed out. Set in big city
+              America, the HBO drama follows billionaire Logan Roy as he pits his children against one another with a
+              view to naming the successor to his business empire.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.rottentomatoes.com/tv/succession"> <button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="https://tecake.com/wp-content/uploads/2020/09/better-call-saul-696x392-1.jpg">
+          <div class="card-body">
+            <h4 class="text-center">Better Call Saul Season 6</h4>
+            <p class="card-text">If you’re not yet watching AMC’s Better Call Saul after five excellent seasons, you’re
+              missing out on arguably television’s top drama. If, somehow, you have yet to watch both Breaking Bad and
+              Better Call Saul, you have no idea what you missed.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.rottentomatoes.com/tv/better_call_saul"> <button type="button"
+                    class="btn btn-sm btn-outline-primary">Details</button></a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% endblock body %}
